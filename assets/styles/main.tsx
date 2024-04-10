@@ -4,17 +4,17 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: '#888'
+        backgroundColor: '#333',
     },
-
     header: {
         width: '100%',
-        height: 70,
-        backgroundColor: '#9c9c9c',
+        height: 120,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center',
-        paddingHorizontal: 10
+        alignItems: 'flex-end',
+        paddingHorizontal: 20,
+        paddingBottom: 20,
+        backgroundColor: '#777'
     },
 
     inputArea: {
@@ -24,13 +24,13 @@ const styles = StyleSheet.create({
     },
     inputAreaTitle: {
         fontSize: 30,
-        color: '#000',
+        color: '#FFF',
         fontWeight: 'bold',
         paddingBottom: 20
     },
     input: {
-        width: '100%',
-        backgroundColor: '#9f9f9f',
+        width: 350,
+        backgroundColor: '#FFF',
         padding: 14,
         fontSize: 16
     },
@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
     }, 
     ingrediente: {
         fontSize: 16,
-        paddingVertical: 10
+        paddingVertical: 10,
+        color: '#FFF'
     }
 })
 
